@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>@section('title', 'home')
-</title>
+    <title>@yield('title')</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -10,7 +9,7 @@
     <!-- navbar mulai di sini -->
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/home">Home</a>
+    <a class="navbar-brand" href="#">Home</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -20,57 +19,25 @@
           <a class="nav-link active" aria-current="page" href="{{ url('/about') }}">About</a>
         </li>
 
-        <!-- namaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
+        <!-- nama -->
 
         <li class="nav-item">
-          <a class="nav-link" href="#">Didan 2301010076</a>
+          <a class="nav-link" href="#">Dian 2301010076</a>
         </li>
          <li class="nav-item">
           <a class="nav-link" href="#">Rojib 2301010120</a>
         </li>
 
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
+        <!-- nama -->
+
+
+
 </nav>
     @yield('content')
     <!-- navbar berakhir di sini -->
-<img src="..." class="img-fluid" alt="Responsive image">
 
 
 
-    {{-- footer --}}
-<div class="container">
-  <footer class="py-3 my-4">
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="{{ url('/about') }}" class="nav-link px-2 text-muted">Didan pradfta 2301010076</a></li>
-      <li class="nav-item"><a href="{{ url('/about') }}" class="nav-link px-2 text-muted">Rojib 2301010120</a></li>
-      
-    </ul>
-    <p class="text-center text-muted">&copy; 2025 Didan X Rojib, Inc</p>
-  </footer>
-</div>
-
-<div class="b-example-divider"></div>
-<script src="/docs/5.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
 </html>
