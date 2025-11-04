@@ -90,9 +90,9 @@
 
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="http://uts_isal_jaya.test/about">ABOUT</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">2301010084_RAHARDI...</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">2301010082_I KETUT...</a></li>
+        <li class="nav-item"><a class="nav-link" href="">h</a>about</li>
+        <li class="nav-item"><a class="nav-link" href="#">2301010076 Didan...</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">2301010120 Rojib...</a></li>
       </ul>
     </div>
   </div>
