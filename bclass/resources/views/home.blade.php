@@ -8,7 +8,11 @@
     <h6>Terkenal akan jurusan ilmu komputer yang tiada duanya, selalu menang kejuaran kompuer di daerah NTB</h6>
 </p>
 
+@extends('about')
 
+@section('title', 'Blog Home')
+
+@section('content')
     <!-- @foreach($posts as $post)
         <div class="post">
             <h2>{{ $post['title'] }}</h2>
