@@ -83,7 +83,7 @@
     </head>
 <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid custom-nav">
-    <a class="navbar-brand" href="http://uts_isal_jaya.test/home">HOME</a>
+    <a class="navbar-brand" href="">HOME</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -106,7 +106,7 @@
         <!-- Card 1 -->
         <div class="col-md-6">
             <div class="card shadow-sm">
-                <img src="http://uts_isal_jaya.test/images/carte.png" class="card-img-top" alt="Foto Profile">
+                <img src="" class="card-img-top" alt="Foto Profile">
                 <div class="card-body">
                     <h5 class="card-title fw-bold">Didan</h5>
                     <p class="card-text">SIGMA SKIBIDI GEDA GEDI CIHUT</p>
