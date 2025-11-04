@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>@yield('title')</title>
+    <title>@section('title', 'home')
+</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -9,7 +10,7 @@
     <!-- navbar mulai di sini -->
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Home</a>
+    <a class="navbar-brand" href="/home">Home</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -22,7 +23,7 @@
         <!-- nama -->
 
         <li class="nav-item">
-          <a class="nav-link" href="#">Dian 2301010076</a>
+          <a class="nav-link" href="#">Didan 2301010076</a>
         </li>
          <li class="nav-item">
           <a class="nav-link" href="#">Rojib 2301010120</a>
@@ -38,6 +39,21 @@
 
 
 
+
+    {{-- footer --}}
+<div class="container">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Didan pradfta 2301010076</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Rojib 2301010120</a></li>
+      
+    </ul>
+    <p class="text-center text-muted">&copy; 2025 Didan X Rojib, Inc</p>
+  </footer>
+</div>
+
+<div class="b-example-divider"></div>
+<script src="/docs/5.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
 </html>

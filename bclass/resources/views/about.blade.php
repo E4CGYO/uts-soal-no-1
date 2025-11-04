@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+@extends('layouts.layout2')
 
 <head>
     <meta charset="UTF-8">
@@ -11,6 +12,8 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Teko:wght@400;600&display=swap"
         rel="stylesheet">
+    <a href="/home">← Back to Home</a>
+@endsection 
 
 
     <style>
