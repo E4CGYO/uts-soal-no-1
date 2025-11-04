@@ -6,7 +6,7 @@ use App\Models\Post;
 class BlogController extends Controller
 {
     // seperti komponen tp bukan komponen halaman posts yg plural
-   
+
 
     // halaman home isinya posts banyak
     public function home()
@@ -28,14 +28,17 @@ class BlogController extends Controller
         return view('post', compact('post'));
     }
 
-    //halaman tentang
+    // halaman tentang
     public function about()
     {
         $info = [
             'name' => 'deva',
             'bio' => 'penulis.'
+
+
         ];
 
         return view('about', compact('info'));
     }
+
 }
