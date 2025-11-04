@@ -17,7 +17,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">About</a>
+          <a class="nav-link active" aria-current="page" href="{{ url('/about') }}">About</a>
         </li>
 
         <!-- namaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
@@ -53,7 +53,7 @@
 </nav>
     @yield('content')
     <!-- navbar berakhir di sini -->
-
+<img src="..." class="img-fluid" alt="Responsive image">
 
 
 
@@ -61,8 +61,8 @@
 <div class="container">
   <footer class="py-3 my-4">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Didan pradfta 2301010076</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Rojib 2301010120</a></li>
+      <li class="nav-item"><a href="{{ url('/about') }}" class="nav-link px-2 text-muted">Didan pradfta 2301010076</a></li>
+      <li class="nav-item"><a href="{{ url('/about') }}" class="nav-link px-2 text-muted">Rojib 2301010120</a></li>
       
     </ul>
     <p class="text-center text-muted">&copy; 2025 Didan X Rojib, Inc</p>
