@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-@extends('layouts.layout2')
 
 <head>
     <meta charset="UTF-8">
@@ -12,8 +11,6 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Teko:wght@400;600&display=swap"
         rel="stylesheet">
-    <a href="/home">← Back to Home</a>
-@endsection 
 
 
     <style>
@@ -86,16 +83,16 @@
     </head>
 <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid custom-nav">
-    <a class="navbar-brand" href="http://uts_isal_jaya.test/home">HOME</a>
+    <a class="navbar-brand" href="/home">HOME</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="http://uts_isal_jaya.test/about">ABOUT</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">2301010084_RAHARDI...</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">2301010082_I KETUT...</a></li>
+        <li class="nav-item"><a class="nav-link" href=""></a>about</li>
+        <li class="nav-item"><a class="nav-link" href="#">2301010076 Didan...</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">2301010120 Rojib...</a></li>
       </ul>
     </div>
   </div>
@@ -109,7 +106,7 @@
         <!-- Card 1 -->
         <div class="col-md-6">
             <div class="card shadow-sm">
-                <img src="http://uts_isal_jaya.test/images/carte.png" class="card-img-top" alt="Foto Profile">
+                <img src="{{asset('img/ddan.png')}}" class="card-img-top" alt="Foto Profile">
                 <div class="card-body">
                     <h5 class="card-title fw-bold">Didan</h5>
                     <p class="card-text">SIGMA SKIBIDI GEDA GEDI CIHUT</p>
@@ -121,7 +118,7 @@
         <!-- Card 2 -->
         <div class="col-md-6">
             <div class="card shadow-sm">
-                <img src="http://uts_isal_jaya.test/images/jaya.jpg" class="card-img-top" alt="Foto Profile">
+                <img src="{{asset('img/rojb.png')}}" class="card-img-top" alt="Foto Profile">
                 <div class="card-body">
                     <h5 class="card-title fw-bold">Rojib</h5>
                     <p class="card-text">SOFT SEPOKEN BANGET</p>
